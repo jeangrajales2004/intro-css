@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    background-color: aqua;
+    margin: 0;
+}
+
+header, footer{
+    background-color: rgba(109, 166, 167, 0.2);
+    display: flex;
+
+}
+
+body{
+    background-color: aquamarine;
+    margin: 0 40px;
+    background-image: url(img/lgo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav{
+    background-color: rgba(99, 193, 236, 0.2);
+     height: 100px; 
+     padding: 15px 0;
+}
+
+nav a{
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 25px;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+nav a:hover{
+    background-color: gray;
+}
+
+main{
+    /*  background-color: cornflowerblue;*/
+    /*  height: 100vh;*/
+}
+
+img{
+    width: 100%;
+}
+
+.izquierda{
+    background-color: dodgerblue;
+    width: 40%;
+}
+
+.row{
+    display: flex;
+    /* height: 150px; */
+}
+
+.derecha{
+    background-color: deepskyblue;
+    width: 60%;
+}
+
+.logo{
+    margin-right: 30px;
+    margin-top: 15px;
+    padding: 15px;
+    
+}
+
+.logo img{
+    border-radius: 50%;
+    width: 80px;
+}
+
+.galeria{
+    background-color: rgba(39, 12, 161, 0.2);
+    margin: 15px 0;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.galeria img{
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    border: 1px dashed rgb(255, 255, 255);
+}
+
+.galeria .diferente{
+    border-radius: 50%;
+    border: 3px dotted;
+}
+
+#diferente{
+    border-radius: 50%;
+    border: 3px dotted;
+}
